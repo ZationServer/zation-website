@@ -174,6 +174,140 @@ img::-moz-selection {
   background: transparent;
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.mouse {
+  max-width: 2.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.scroll {
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.65, -0.55, 0.25, 1.5);
+  animation-timing-function: cubic-bezier(0.65, -0.55, 0.25, 1.5);
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 20.5px;
+  transform-origin: 50% 20.5px;
+  will-change: transform, opacity;
+  opacity: 1;
+}
+
+.scroll-link {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@-webkit-keyframes scroll {
+  0%, 20% {
+    -webkit-transform: translateY(0) scaleY(1);
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    -webkit-transform: translateY(36px) scaleY(2);
+    transform: translateY(36px) scaleY(2);
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  0%, 20% {
+    -webkit-transform: translateY(0) scaleY(1);
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    -webkit-transform: translateY(36px) scaleY(2);
+    transform: translateY(36px) scaleY(2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes aPath1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
+    transform: translatey(0px) translateX(0px) rotateX(0);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translatey(-20px) translateX(10px) rotateX(5deg);
+    transform: translatey(-20px) translateX(10px) rotateX(5deg);
+  }
+}
+
+@keyframes aPath1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
+    transform: translatey(0px) translateX(0px) rotateX(0);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translatey(-20px) translateX(10px) rotateX(5deg);
+    transform: translatey(-20px) translateX(10px) rotateX(5deg);
+  }
+}
+
+@-webkit-keyframes aPath2 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
+    transform: translatey(0px) translateX(0px) rotateX(0);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
+    transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
+  }
+}
+
+@keyframes aPath2 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
+    transform: translatey(0px) translateX(0px) rotateX(0);
+  }
+  100% {
+    opacity: 0.8;
+    -webkit-transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
+    transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
+  }
+}
+
+.path1Animation {
+  -webkit-animation: aPath1 2s ease-in-out infinite;
+  animation: aPath1 2s ease-in-out infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.path2Animation {
+  -webkit-animation: aPath2 2s ease-in-out infinite;
+  animation: aPath2 2s ease-in-out infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #424242;
@@ -193,12 +327,18 @@ img::-moz-selection {
   color: white;
 }
 
+#mainNav .navbar-nav {
+  -webkit-box-align: inherit !important;
+  -ms-flex-align: inherit !important;
+  align-items: inherit !important;
+}
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -215,6 +355,12 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
+}
+
+@media (max-width: 992px) {
+  #mainNav .navExtra {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -257,6 +403,10 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #3099BB;
   }
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 header.masthead {

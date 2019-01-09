@@ -44,7 +44,19 @@
         $( "#findMore" ).addClass('animated pulse');
     },2200);
 
-    new Vivus('logo', {duration: 200, start: 'autostart', animTimingFunction: Vivus.EASE});
+    new Vivus('logo', {duration: 200, start: 'autostart', animTimingFunction: Vivus.EASE}, function () {
+        $( "#path1" ).addClass('path1Animation');
+        $( "#path2" ).addClass('path2Animation');
+    });
+
+    //scrollMouse Animation
+    $('a.scroll-link').click(function(e){
+        e.preventDefault();
+        var id = $(this).attr('href');
+        $('body,html').animate({
+            scrollTop: $(id).offset().top -20
+        }, 750);
+    });
 
 
     // Scroll reveal calls
@@ -105,6 +117,43 @@
         delay: 400,
         scale: 0
     });
+
+    //code typing effect
+
+    var codeIsAppear = false;
+    $('#getStarted').waypoint(function() {
+        if(!codeIsAppear)
+        {
+            blendCodeIn('#code1','npm i -g zation',true,function () {
+                blendCodeIn('#code2','zation initServer [folderName]',true,function () {
+                    blendCodeIn('#code3','zation initClient [folderName]',true);
+                })
+            });
+            codeIsAppear = true;
+        }
+    },{ offset: '25%'});
+
+    var blendCodeIn = function (element,text,remCursor,after) {
+        new Typed(element, {
+            strings : [text],
+            typeSpeed: 50,
+            onComplete: function () {
+                if(remCursor) {
+                    removeCursor();
+                }
+                if(typeof after === 'function') {
+                    setTimeout(function () {
+                        after();
+                    },200)
+                }
+            }
+        });
+    };
+
+    var code = $('#code');
+    function removeCursor() {
+        code.children('.typed-cursor').fadeOut(500);
+    }
 
     // Magnific popup calls
     $('.popup-gallery').magnificPopup({

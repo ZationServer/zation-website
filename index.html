@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon3/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon3/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -42,7 +42,7 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
@@ -72,10 +72,24 @@
         <div class="row align-items-center">
 
             <div class="col-lg-12 mx-auto">
-                <object style="width:30em; margin-bottom: 2vh;" id="logo" type="image/svg+xml"
-                        data="img/logo2.svg"></object>
+                <svg version="1.1" style="width:30em; margin-bottom:2vh; enable-background:new 0 0 1197.4 1256.9;" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 1197.4 1256.9" xml:space="preserve">
+                    <style type="text/css">
+	                    .st0{fill:none;stroke:#3099BB;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+                    </style>
+                    <path class="st0" id="path1" d="M608.9,50l117.7,70.9l-61.8,35.2l-52.8-26.6l-441,256L169.4,666l351.5,215.2l-70.4,38.2L100,706.7V344.2 L608.9,50z M754.8,339.8l-74,37.5l342.1,211l-0.2,283.6l-426.6,257.7l-48-28.1l-60.7,34.3l110.6,71.1l497.4-295.4l2.1-360.1 L754.8,339.8z"/>
+                    <path class="st0" id="path2" d="M273.5,450.2l512.6-291.1l311.3,173v133.6l-74-45.2v-46.6L783.9,238.4L338.1,492l1.1,191.8l-65.7-36.3V450.2z M100,924.2l308.8,172.6l511.8-288.6V609l-64.8-34.4l0.9,192.3l-447.6,254.2L167.9,884.9v-49.2L100,794.4L100,924.2z"/>
+                </svg>
                 <p class="text-primary nexa mb-5" style="font-size: 3em">Application Server Framework</p>
                 <a id="findMore" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                <a class="scroll-link" href="#content">
+                    <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+                        <g fill="none" fill-rule="evenodd">
+                            <rect width="70" height="118" x="1.5" y="1.5" stroke="#3099BB" stroke-width="3" rx="36"/>
+                            <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#3099BB"/>
+                        </g>
+                    </svg>
+                </a>
             </div>
         </div>
     </div>
@@ -174,7 +188,7 @@
         <hr class="light my-4">
         <h3 class="b-m">Start by Creating a Project</h3>
         <figure class="highlight highlight-dark text-left my-4">
-            <pre class="preCode"><code><span class="c1"># Install Zation</span><br>$ npm i -g zation<br><span class="c1"># Create Server Project</span><br>$ zation initServer [folderName]<br><span class="c1"># Create Client Project</span><br>$ zation initClient [folderName]</code></pre>
+            <pre class="preCode"><code id="code"><span class="c1"># Install Zation</span><br>$ <span id="code1"></span><br><span class="c1"># Create Server Project</span><br>$ <span id="code2"></span><br><span class="c1"># Create Client Project</span><br>$ <span id="code3"></span></code></pre>
         </figure>
         <h3 class="b-m t-m">Or start by reading the Documentation Guides</h3>
         <a  class="btn btn-primary btn-xl sr-button" href="https://github.com/ZationServer" class="navExtra github"><i class="fa fa-3x fa-book text-white sr-icon-2"></i></a>
@@ -228,6 +242,8 @@
 <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <script src="js/vivus.js"></script>
+<script src="js/typed.js@2.0.9"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 
 <!-- Custom scripts for this template -->
 <script src="js/creative.min.js"></script>
