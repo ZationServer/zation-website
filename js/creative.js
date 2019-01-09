@@ -78,23 +78,31 @@
         delay: 800,
         scale: 0
     });
+
+    var view2RowOffset = {
+        top: -60
+    };
+
     sr.reveal('.sr-icon-5', {
         delay: 1000,
-        scale: 0
+        scale: 0,
+        viewOffset: view2RowOffset
     });
     sr.reveal('.sr-icon-6', {
         delay: 1200,
-        scale: 0
+        scale: 0,
+        viewOffset: view2RowOffset
     });
     sr.reveal('.sr-icon-7', {
         delay: 1400,
-        scale: 0
+        scale: 0,
+        viewOffset: view2RowOffset
     });
     sr.reveal('.sr-icon-8', {
         delay: 1600,
-        scale: 0
+        scale: 0,
+        viewOffset: view2RowOffset
     });
-
 
     sr.reveal('.sr-button', {
         delay: 200,

@@ -212,7 +212,7 @@ img::-moz-selection {
 
 .scroll-link {
   position: absolute;
-  bottom: 1rem;
+  bottom: -10rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -244,12 +244,10 @@ img::-moz-selection {
 
 @-webkit-keyframes aPath1 {
   0% {
-    opacity: 1;
     -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     -webkit-transform: translatey(-20px) translateX(10px) rotateX(5deg);
     transform: translatey(-20px) translateX(10px) rotateX(5deg);
   }
@@ -257,12 +255,10 @@ img::-moz-selection {
 
 @keyframes aPath1 {
   0% {
-    opacity: 1;
     -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     -webkit-transform: translatey(-20px) translateX(10px) rotateX(5deg);
     transform: translatey(-20px) translateX(10px) rotateX(5deg);
   }
@@ -270,12 +266,10 @@ img::-moz-selection {
 
 @-webkit-keyframes aPath2 {
   0% {
-    opacity: 1;
     -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     -webkit-transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
     transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
   }
@@ -283,27 +277,25 @@ img::-moz-selection {
 
 @keyframes aPath2 {
   0% {
-    opacity: 1;
     -webkit-transform: translatey(0px) translateX(0px) rotateX(0);
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     -webkit-transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
     transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
   }
 }
 
 .path1Animation {
-  -webkit-animation: aPath1 2s ease-in-out infinite;
-  animation: aPath1 2s ease-in-out infinite;
+  -webkit-animation: aPath1 6s ease-in-out infinite;
+  animation: aPath1 6s ease-in-out infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
 
 .path2Animation {
-  -webkit-animation: aPath2 2s ease-in-out infinite;
-  animation: aPath2 2s ease-in-out infinite;
+  -webkit-animation: aPath2 6s ease-in-out infinite;
+  animation: aPath2 6s ease-in-out infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }

@@ -188,7 +188,7 @@ $mouse-width: 2.5rem;
 
 .scroll-link {
   position: absolute;
-  bottom: 1rem;
+  bottom: -10rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -211,34 +211,30 @@ $mouse-width: 2.5rem;
 //gravity effect
 @keyframes aPath1 {
   0% {
-    opacity: 1;
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     transform: translatey(-20px) translateX(10px) rotateX(5deg);
   }
 }
 @keyframes aPath2 {
   0% {
-    opacity: 1;
     transform: translatey(0px) translateX(0px) rotateX(0);
   }
   100% {
-    opacity: 0.8;
     transform: translatey(-20px) translateX(-10px) rotateX(-5deg);
   }
 }
 
 .path1Animation
 {
-  animation: aPath1 2s ease-in-out infinite;
+  animation: aPath1 6s ease-in-out infinite;
   animation-direction: alternate;
 }
 
 .path2Animation
 {
-  animation: aPath2 2s ease-in-out infinite;
+  animation: aPath2 6s ease-in-out infinite;
   animation-direction: alternate;
 }
 
