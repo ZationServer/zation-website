@@ -218,6 +218,19 @@ img::-moz-selection {
   transform: translateX(-50%);
 }
 
+@media (max-width: 992px) {
+  .scroll-link {
+    bottom: -5rem;
+  }
+}
+
+@media (max-width: 573px) {
+  #logo {
+    margin-top: 2vh !important;
+    width: 15em !important;
+  }
+}
+
 @-webkit-keyframes scroll {
   0%, 20% {
     -webkit-transform: translateY(0) scaleY(1);
