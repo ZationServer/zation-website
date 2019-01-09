@@ -1,0 +1,40 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 3.5rem;
+  padding-bottom: calc(10rem - 56px);
+  //background-image: url('../img/header.jpg');
+  background-color: #1a1a1a!important;
+  background-position: center center;
+  @include background-cover;
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 3.5rem;
+    padding-bottom: calc(10rem - 56px);
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    padding-top: 3.5rem;
+    padding-bottom: calc(10rem - 56px);
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
