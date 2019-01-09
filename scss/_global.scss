@@ -202,8 +202,11 @@ $mouse-width: 2.5rem;
 
 @media (max-width: 573px) {
   #logo{
-    margin-top: 2vh!important;
+    margin-top: 4vh!important;
     width: 15em!important;
+  }
+  #logoText{
+    font-size: 2.4em!important;
   }
 }
 
