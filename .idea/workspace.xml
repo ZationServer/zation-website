@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7ab7c77-5faf-44e3-8853-699835faca9f" name="Default Changelist" comment="R">
-      <change afterPath="$PROJECT_DIR$/img/zationWideLogo.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/mstile-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/mstile-310x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/mstile-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon2/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon3/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoWithBackground.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logoWithBackground.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vivus_instant_logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e7ab7c77-5faf-44e3-8853-699835faca9f" name="Default Changelist" comment="R" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="-2295">
               <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,27 +27,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo3.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo4.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo6.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logoWithBackground.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo.svg">
+        <entry file="file://$PROJECT_DIR$/img/zationBackgroundLogo.svg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -93,7 +37,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo2.svg">
+        <entry file="file://$PROJECT_DIR$/img/zationSmartLogo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/zationWideLogo.psd">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -240,18 +189,18 @@
       <updated>1546969505685</updated>
       <workItem from="1546969507459" duration="28822000" />
       <workItem from="1547066512164" duration="1673000" />
-      <workItem from="1547131579038" duration="90000" />
+      <workItem from="1547131579038" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30585000" />
+    <option name="totallyTimeSpent" value="30889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49619484" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49619484" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" sideWeight="0.50380516" side_tool="true" visible="true" weight="0.24954791" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -265,7 +214,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,24 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo2.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo3.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo4.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo6.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logoWithBackground.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/favicon2/android-chrome-512x512.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -436,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="-2295">
           <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -444,6 +375,27 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo6.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo3.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo4.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/zationBackgroundLogo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/zationSmartLogo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/zationWideLogo.psd">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
