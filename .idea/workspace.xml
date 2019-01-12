@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ab7c77-5faf-44e3-8853-699835faca9f" name="Default Changelist" comment="R">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="159" column="34" lean-forward="true" selection-start-line="159" selection-start-column="34" selection-end-line="159" selection-end-column="34" />
+            <state relative-caret-position="303">
+              <caret line="149" column="25" lean-forward="true" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -157,12 +156,12 @@
       <workItem from="1546969507459" duration="28822000" />
       <workItem from="1547066512164" duration="1673000" />
       <workItem from="1547131579038" duration="606000" />
-      <workItem from="1547254555011" duration="1177000" />
+      <workItem from="1547254555011" duration="1353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32278000" />
+    <option name="totallyTimeSpent" value="32454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -345,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="159" column="34" lean-forward="true" selection-start-line="159" selection-start-column="34" selection-end-line="159" selection-end-column="34" />
+        <state relative-caret-position="303">
+          <caret line="149" column="25" lean-forward="true" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
