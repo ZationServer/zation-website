@@ -1,11 +1,11 @@
 @font-face {
   font-family: "NexaBold";
-  src: url("/font/NexaBold.otf") format("opentype");
+  src: url("/font/nexabold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "NexaLight";
-  src: url("/font/NexaLight.otf") format("opentype");
+  src: url("/font/nexalight.otf") format("opentype");
 }
 
 body,
@@ -320,6 +320,20 @@ img::-moz-selection {
   animation-direction: alternate;
 }
 
+#particlesContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+#getStarted {
+  z-index: 10;
+  position: relative;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #424242;
@@ -450,7 +464,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 62em;
     min-height: 650px;
     padding-top: 3.5rem;
     padding-bottom: calc(10rem - 56px);

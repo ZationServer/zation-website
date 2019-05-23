@@ -80,7 +80,7 @@
     });
 
     var view2RowOffset = {
-        top: -60
+        top: -100
     };
 
     sr.reveal('.sr-icon-5', {
@@ -178,5 +178,7 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
+
+    particlesJS.load('particlesContainer', 'json/particles-config-points.json');
 
 })(jQuery); // End of use strict

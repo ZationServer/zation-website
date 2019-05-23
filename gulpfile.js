@@ -8,8 +8,8 @@ const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
 
-// Copy third party libraries from /node_modules into /vendor
-gulp.task('vendor', function (cb) {
+// Copy third party libraries from /node_modules into /libs
+gulp.task('libs', function (cb) {
 
     // Bootstrap
     gulp.src([
@@ -17,38 +17,38 @@ gulp.task('vendor', function (cb) {
         '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
         '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
-        .pipe(gulp.dest('./vendor/bootstrap'));
+        .pipe(gulp.dest('./libs/bootstrap'));
 
     // Font Awesome
     gulp.src([
         './node_modules/@fortawesome/**/*',
     ])
-        .pipe(gulp.dest('./vendor'));
+        .pipe(gulp.dest('./libs'));
 
     // jQuery
     gulp.src([
         './node_modules/jquery/dist/*',
         '!./node_modules/jquery/dist/core.js'
     ])
-        .pipe(gulp.dest('./vendor/jquery'));
+        .pipe(gulp.dest('./libs/jquery'));
 
     // jQuery Easing
     gulp.src([
         './node_modules/jquery.easing/*.js'
     ])
-        .pipe(gulp.dest('./vendor/jquery-easing'));
+        .pipe(gulp.dest('./libs/jquery-easing'));
 
     // Magnific Popup
     gulp.src([
         './node_modules/magnific-popup/dist/*'
     ])
-        .pipe(gulp.dest('./vendor/magnific-popup'));
+        .pipe(gulp.dest('./libs/magnific-popup'));
 
     // Scrollreveal
     gulp.src([
         './node_modules/scrollreveal/dist/*.js'
     ])
-        .pipe(gulp.dest('./vendor/scrollreveal'));
+        .pipe(gulp.dest('./libs/scrollreveal'));
 
     cb();
 
@@ -57,7 +57,7 @@ gulp.task('vendor', function (cb) {
 // CSS task
 function css() {
     return gulp
-        .src("./scss/*.scss")
+        .src("./src/scss/*.scss")
         .pipe(plumber())
         .pipe(sass({
             outputStyle: "expanded"
@@ -115,12 +115,12 @@ function browserSyncReload(done) {
 
 // Watch files
 function watchFiles() {
-    gulp.watch("./scss/**/*", css);
+    gulp.watch("./src/scss/**/*", css);
     gulp.watch(["./js/**/*.js", "!./js/*.min.js"], js);
     gulp.watch("./**/*.html", browserSyncReload);
 }
 
-gulp.task("default", gulp.parallel('vendor', css, js));
+gulp.task("default", gulp.parallel('libs', css, js));
 
 // dev task
 gulp.task("dev", gulp.parallel(watchFiles, browserSync));
