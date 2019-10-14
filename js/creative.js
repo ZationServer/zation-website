@@ -133,9 +133,7 @@
         if(!codeIsAppear)
         {
             blendCodeIn('#code1','npm i -g zation',true,function () {
-                blendCodeIn('#code2','zation initServer [folderName]',true,function () {
-                    blendCodeIn('#code3','zation initClient [folderName]',true);
-                })
+                blendCodeIn('#code2','zation init [path]',true);
             });
             codeIsAppear = true;
         }
