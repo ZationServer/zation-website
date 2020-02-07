@@ -86,7 +86,7 @@ function js() {
 //Copy of files
 function cof() {
     return gulp
-        .src(['src/**/*','!src/**/*.js','src/**/*.min.js','!src/**/*.scss'])
+        .src(['src/**/*','!src/**/*.js','src/**/*.min.js','!src/**/*.scss','!src/scss'])
         .pipe(gulp.dest(distFolder));
 }
 // Tasks
