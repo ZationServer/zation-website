@@ -1,5 +1,4 @@
 // Load plugins
-const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const gulp = require("gulp");
 const plumber = require("gulp-plumber");
@@ -63,10 +62,6 @@ function css() {
             outputStyle: "expanded"
         }))
         .on("error", sass.logError)
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
         .pipe(rename({
             suffix: ".min"
         }))
