@@ -133,7 +133,7 @@
         if(!codeIsAppear)
         {
             blendCodeIn('#code1','npm i -g zation',true,function () {
-                blendCodeIn('#code2','zation create <name>',true);
+                blendCodeIn('#code2','zation create name',true);
             });
             codeIsAppear = true;
         }
