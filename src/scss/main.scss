@@ -1,11 +1,11 @@
 @font-face {
   font-family: "NexaBold";
-  src: url("/src/font/nexabold.otf") format("opentype");
+  src: url("./../font/nexabold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "NexaLight";
-  src: url("/src/font/nexalight.otf") format("opentype");
+  src: url("./../font/nexalight.otf") format("opentype");
 }
 
 @import "variables";
