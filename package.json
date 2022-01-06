@@ -6,12 +6,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ZationServer/zation.git"
+        "url": "https://github.com/ZationServer/zation-website.git"
     },
     "author": {
-        "name": "Luca Scarignella",
-        "email": "lucacode1@gmail.com",
-        "url": "https://luca.scaringella.de"
+        "name": "Ing. Luca Gian Scaringella",
+        "email": "lucacode1@gmail.com"
     },
     "keywords": [
         "esay",
