@@ -3,7 +3,7 @@
     "name": "zation-website",
     "version": "0.0.1",
     "description": "The official website of the Zation framework.",
-    "license": "MIT",
+    "license": "SEE LICENSE IN <README.md>",
     "repository": {
         "type": "git",
         "url": "https://github.com/ZationServer/zation-website.git"
